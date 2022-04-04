@@ -1,0 +1,24 @@
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+  background-color: $myColor;
+}
+
+#container {
+  width: $myWidth;
+}
+
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
